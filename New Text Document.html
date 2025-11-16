@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanManel Leather Craft</title>
+    <link rel="stylesheet" href="New Text Document.css">
+</head>
+<body>
+    <header id="home">
+        <h1>VanManel Leather Craft</h1>
+        <div class="document-info">
+        </div>
+    </header>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="success-icon">✓</div>
+            <h2>Order Successful!</h2>
+            <p>Thank you for your purchase. We'll contact you shortly to confirm your order details.</p>
+            <button id="continueShopping" class="order-button">Continue Shopping</button>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About us</a>
+            <a href="#featured" class="nav-link">Featured</a>
+            <a href="#contact" class="nav-link">Contact us</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="powered-by" id="about">
+            <h2>VanManel Leather Craft</h2>
+            <img src="logo.png" alt="VanManel Leather Craft Logo" width="200">
+        </section>
+        <section class="speaks">
+            <h2>About us</h2>
+        </section>
+        <section class="manual-sections">
+            <nav>
+                <ul>
+                    <div class="section">
+                        <h3>VanManel Leather Crafts creates handcrafted products that are made with care, love, precision, and a  touch of your personality. Your essentials that are uniquely yours, dedicated for you, and forever yours. </h3>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="manual-content" id="featured">
+            <h2>VanManel's Products</h2>
+            <div class="content-sections">
+                <!-- Keychain Product -->
+                <div class="section" id="keychain-product">
+                    <h3>Keychain</h3>
+                    <p>Keychain Made Just For You Charmee</p>
+                    <div class="price-tag">₱150</div>
+                    <img src="keychain.JPEG" alt="Keychain" width="125">
+                    <h6>Build your own customized keychain. A keychain that is uniquely yours with a custom charmee collection. Featuring sleek leather-look straps that you can customize by spelling out your name, mood, or a meaningful word using a playful selection of colorful beaded letters and elegant, sparkling metal charms; this durable accessory brings personality right to your keys, making a subtle yet stylish statement that is expressive, unforgettable, and totally you. A keychain where you can be free and express yourself.</h6>
+                    <a href="#keychain-form" class="order-link">Personalize Your Keychain</a>
+                </div>
+                
+                <!-- Coin Purse Product -->
+                <div class="section" id="coin-purse-product">
+                    <h3>Coin Purse</h3>
+                    <p>Keep Your Little Clinket</p>
+                    <div class="price-tag">₱65</div>
+                    <img src="coin purse (1).jpg" alt="Coin Purse" width="125">
+                    <h6>A handcrafted leather coin purse is designed to keep your loose change, small essentials, and everyday bits neatly organized. Made from high-quality, durable leather, it features a secure snap closure and a compact shape that fits perfectly in your pocket or bag. Stylish, simple, and functional — this little carry-all adds a pop of color while keeping your valuables safe and easy to reach.</h6>
+                    <a href="#coin-purse-form" class="order-link">Personalize Your Coin Purse</a>
+                </div>
+                
+                <!-- Bracelet Product -->
+                <div class="section" id="bracelet-product">
+                    <h3>Bracelet</h3>
+                    <p>Wear Your Twisted Charms</p>
+                    <div class="price-tag">₱150</div>
+                    <img src="bracelet (1).jpeg" alt="Bracelet" width="125">
+                    <h6>This charming bracelet features a playful mix of colorful, eye-catching charms that bring personality to any outfit. Crafted with a sleek metal chain, it's lightweight, comfortable, and perfect for everyday wear. Each charm holds your story — happiness, expressive, and uniquely you. Whether worn alone or paired with other accessories, this bracelet makes a subtle yet stylish statement.</h6>
+                    <a href="#bracelet-form" class="order-link">Personalize Your Bracelet</a>
+                </div>
+                
+                <!-- Key Holder Product -->
+                <div class="section" id="key-holder-product">
+                    <h3>Key Holder</h3>
+                    <p>Forever Yours, Infinity Keys</p>
+                    <div class="price-tag">₱65</div>
+                    <img src="keycholder.jpg" alt="Key Holder" width="125">
+                    <h6>Crafted from smooth, high-quality leatherette in beautiful, muted tones like rich mauve, crisp white, and warm tan, each strap is personalized with elegant debossed lettering for a name and features a delicate, round charm. Lightweight and comfortable in your hand, this accessory is secured by sturdy metal hardware, making it a perfect, meaningful gift or a refined touch to your everyday essentials.</h6>
+                    <a href="#key-holder-form" class="order-link">Personalize Your Key Holder</a>
+                </div>
+                
+                <!-- Footwear Product -->
+                <div class="section" id="footwear-product">
+                    <h3>Foot Wear</h3>
+                    <p>Move With Comfort, Step Into Your Future</p>
+                    <div class="price-tag">₱120</div>
+                    <img src="foot wear.JPG" alt="Footwear" width="125">
+                    <h6>These effortless slip-on sandals are grounded by wide, stylish criss-cross straps made from soft, high-quality leather in rich, earthy hues like terracotta and natural tan. The combination of textured burlap and smooth material creates an eye-catching, comfortable design, perfect for casual elegance and warm-weather wear.</h6>
+                    <a href="#footwear-form" class="order-link">Personalize Your Footwear</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personalized Order Forms -->
+        <section class="personalized-forms">
+            <!-- Keychain Form -->
+            <div class="color-coding" id="keychain-form">
+                <h2>Personalize Your Keychain</h2>
+                <div class="price-indicator">Price: ₱150</div>
+                <div class="color-info">
+                    <div class="form-field">
+                        <label for="keychain-name">Your Name Here:</label>
+                        <input type="text" id="keychain-name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="keychain-color">Color:</label>
+                        <input type="text" id="keychain-color" placeholder="Enter preferred color">
+                    </div>
+                    <div class="form-field">
+                        <label>Type of Charmee:</label>
+                        <div class="option-group">
+                            <div class="option-item">
+                                <input type="radio" id="pastel" name="charmee-type" value="pastel">
+                                <label for="pastel">A. Pastel</label>
+                            </div>
+                            <div class="option-item">
+                                <input type="radio" id="rhinestone" name="charmee-type" value="rhinestone">
+                                <label for="rhinestone">B. Rhinestone</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="order-button" data-product="Keychain">Order Now!</button>
+                </div>
+                <a href="#keychain-product" class="back-link">← Back to Keychain</a>
+            </div>
+
+            <!-- Coin Purse Form -->
+            <div class="color-coding" id="coin-purse-form">
+                <h2>Personalize Your Coin Purse</h2>
+                <div class="price-indicator">Price: ₱65</div>
+                <div class="color-info">
+                    <div class="form-field">
+                        <label for="coin-purse-name">Your Name Here:</label>
+                        <input type="text" id="coin-purse-name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="coin-purse-color">Color:</label>
+                        <input type="text" id="coin-purse-color" placeholder="Enter preferred color">
+                    </div>
+                    <button class="order-button" data-product="Coin Purse">Order Now!</button>
+                </div>
+                <a href="#coin-purse-product" class="back-link">← Back to Coin Purse</a>
+            </div>
+
+            <!-- Bracelet Form -->
+            <div class="color-coding" id="bracelet-form">
+                <h2>Personalize Your Bracelet</h2>
+                <div class="price-indicator">Price: ₱150</div>
+                <div class="color-info">
+                    <div class="form-field">
+                        <label for="bracelet-name">Your Name Here:</label>
+                        <input type="text" id="bracelet-name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="bracelet-color">Color:</label>
+                        <input type="text" id="bracelet-color" placeholder="Enter preferred color">
+                    </div>
+                    <div class="form-field">
+                        <label for="bracelet-design">Insert Your Charms Design (ex. pink tulip flower):</label>
+                        <textarea id="bracelet-design" placeholder="Describe your charm design"></textarea>
+                    </div>
+                    <button class="order-button" data-product="Bracelet">Order Now!</button>
+                </div>
+                <a href="#bracelet-product" class="back-link">← Back to Bracelet</a>
+            </div>
+
+            <!-- Key Holder Form -->
+            <div class="color-coding" id="key-holder-form">
+                <h2>Personalize Your Key Holder</h2>
+                <div class="price-indicator">Price: ₱65</div>
+                <div class="color-info">
+                    <div class="form-field">
+                        <label for="key-holder-name">Your Name Here:</label>
+                        <input type="text" id="key-holder-name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="key-holder-color">Color:</label>
+                        <input type="text" id="key-holder-color" placeholder="Enter preferred color">
+                    </div>
+                    <button class="order-button" data-product="Key Holder">Order Now!</button>
+                </div>
+                <a href="#key-holder-product" class="back-link">← Back to Key Holder</a>
+            </div>
+
+            <!-- Footwear Form -->
+            <div class="color-coding" id="footwear-form">
+                <h2>Personalize Your Footwear</h2>
+                <div class="price-indicator">Price: ₱120</div>
+                <div class="color-info">
+                    <div class="form-field">
+                        <label for="footwear-name">Your Name Here:</label>
+                        <input type="text" id="footwear-name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="footwear-foot-pad">Color of Foot Pad:</label>
+                        <input type="text" id="footwear-foot-pad" placeholder="Enter foot pad color">
+                    </div>
+                    <div class="form-field">
+                        <label for="footwear-straps">Color of Criss Cross Straps:</label>
+                        <input type="text" id="footwear-straps" placeholder="Enter straps color">
+                    </div>
+                    <button class="order-button" data-product="Footwear">Order Now!</button>
+                </div>
+                <a href="#footwear-product" class="back-link">← Back to Footwear</a>
+            </div>
+        </section>
+
+        <section class="feature">
+            <h2>Contacts</h2>
+        </section>
+
+        <section class="key-points" id="contact">
+            <div class="top-key-points">
+                <h3>Social Media Accounts</h3>
+                <ul>
+                    <li>Facebook: VanManel Footwear</li>
+                    <li>Instagram: @vanmanelcrafts</li>
+                </ul>
+            </div>
+
+            <div class="bottom-key-points">
+                <h3>Contacts</h3>
+                <ul>
+                    <li>Phone: 0991-901-8210</li>
+                    <li>Email: vanmanelfootwear@gmail.com</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Get the modal
+        const modal = document.getElementById("successModal");
+        const closeModal = document.querySelector(".close-modal");
+        const continueShopping = document.getElementById("continueShopping");
+        
+        // Get all order buttons
+        const orderButtons = document.querySelectorAll(".order-button");
+        
+        // Add click event to all order buttons
+        orderButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                // Get product name from data attribute
+                const productName = this.getAttribute("data-product");
+                
+                // Update modal content with product name
+                const modalTitle = modal.querySelector("h2");
+                modalTitle.textContent = `${productName} Order Successful!`;
+                
+                // Show the modal
+                modal.style.display = "block";
+            });
+        });
+        
+        // Close modal when X is clicked
+        closeModal.addEventListener("click", function() {
+            modal.style.display = "none";
+        });
+        
+        // Close modal when continue shopping button is clicked
+        continueShopping.addEventListener("click", function() {
+            modal.style.display = "none";
+        });
+        
+        // Close modal when clicking outside the modal content
+        window.addEventListener("click", function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
